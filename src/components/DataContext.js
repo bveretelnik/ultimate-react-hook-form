@@ -8,7 +8,7 @@ export const DataProvider = ({ children }) => {
   const setValues = (values) => {
     setData((prevData) => ({
       ...prevData,
-      values,
+      ...values,
     }));
   };
 

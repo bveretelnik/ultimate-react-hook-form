@@ -16,6 +16,7 @@ function PrimaryButton({ children, ...props }) {
       variant="contained"
       color="primary"
       type="submit"
+      {...props}
     >
       {children}
     </Button>

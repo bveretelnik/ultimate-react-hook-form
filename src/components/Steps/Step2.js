@@ -52,6 +52,7 @@ function Step2() {
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Input
           ref={register}
+          id="email"
           type="email"
           label="Email"
           name="email"
